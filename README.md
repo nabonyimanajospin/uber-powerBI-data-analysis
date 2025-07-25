@@ -249,8 +249,11 @@ All visuals include **filters** and **clean formatting**:
 ## 👨‍💻 Author
 
 **Jospin Nabonyimana**
+
 🎓 Student, Adventist University of Central Africa
+
 📚 Course: INSY 8413 – Introduction to Big Data Analytics
+
 📧 Email: [Contact me](mailto:jospinnabonyimana@gmail.com)
 
 ---
