@@ -3,7 +3,8 @@
 ## 🔗 Kaggle Notebook
 
 📘 *Full notebook on Kaggle*  
-[👉 Click here to open the Uber Analysis on Kaggle](https://www.kaggle.com/code/jospin-nabonyimana/introduction-to-big-data-kaggle/edit)
+[👉 Click here to open the Uber Analysis on Kaggle](https://www.kaggle.com/code/jospin-nabonyimana/introduction-to-big-data-kaggle)
+
 > A complete data analysis project for **INSY 8413 – Introduction to Big Data Analytics** using **Python (Pandas)** and **Power BI**
 
 ![Tool](https://img.shields.io/badge/Tool-Python%20%7C%20Power%20BI-brightgreen)
