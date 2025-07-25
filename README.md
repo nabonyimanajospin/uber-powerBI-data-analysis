@@ -51,8 +51,8 @@ df = pd.read_csv('uber.csv')
 df.head()
 ```
 
-**🖼 Screenshot:** `📸 Show first 5 rows of raw dataset`
-
+**🖼 Screenshot:** 
+<img width="1920" height="982" alt="image" src="https://github.com/user-attachments/assets/90336f78-58a7-4eca-9366-250c92ca3e21" />
 ---
 
 ### ✅ Step 2: Data Types, Shape, Nulls
@@ -64,8 +64,12 @@ print(df.isnull().sum())
 ```
 
 ✅ Found missing values and unformatted datetime.
+* Total Rows: 200,000
+* Detected 1 missing value each in `dropoff_latitude` and `dropoff_longitude`
+* Noticed `pickup_datetime` was not in datetime format
 
-**🖼 Screenshot:** `📸 Output showing types and nulls`
+**📸 Screenshot:**
+<img width="1920" height="832" alt="image" src="https://github.com/user-attachments/assets/557cc93c-efeb-4113-882f-fc855c22c808" />
 
 ---
 
@@ -76,64 +80,81 @@ df.describe()
 ```
 
 ✅ Detected zero/negative fares and extreme values.
+* Found negative or zero fare values
+* Passenger count outliers (0, very high values)
 
-**🖼 Screenshot:** `📸 Descriptive summary`
+**📸 Screenshot:**
+<img width="1920" height="787" alt="image" src="https://github.com/user-attachments/assets/67b36b74-d359-40b7-a0cc-1e3a974b184f" />
 
 ---
 
-### ✅ Step 4: Cleaning Data
+### ✅ Step 4: Clean and Prepare Data
 
 ```python
-# Drop unnamed index
-# Convert datetime
-# Drop nulls, filter fare and passenger count
-# Reset index
+# Drop unnamed index column
+# Convert pickup_datetime
+# Drop nulls
+# Filter invalid fare_amount and passenger_count
+
+...
 ```
 
-✅ Removed invalid rows and formatted datetime.
+**Key Cleaning Actions:**
 
-**🖼 Screenshot:** `📸 Cleaned dataset head`
+* Dropped `Unnamed: 0` (useless index)
+* Converted `pickup_datetime` to proper datetime format
+* Dropped 2 null rows
+* Removed trips with fare ≤ 0 and passenger count < 1 or > 6
+
+**📸 Screenshot:**
+<img width="1853" height="835" alt="image" src="https://github.com/user-attachments/assets/82b1b051-b6ac-4e50-8941-d3c4e1f9b4ac" />
+<img width="1920" height="814" alt="image" src="https://github.com/user-attachments/assets/cece6a2f-f61e-4d99-a1ba-b883760d7664" />
 
 ---
 
-### ✅ Step 5: Check Final Shape
+### ✅ Step 5: Check Final Dataset Shape
 
 ```python
 print(df.shape)
 ```
 
-✅ Final shape: **199,268 rows × 8 columns**
-
-**🖼 Screenshot:** `📸 Shape after cleaning`
+**📈 Final Shape: 199,268 rows × 8 columns**
+**📸 Screenshot:**
+<img width="1920" height="205" alt="image" src="https://github.com/user-attachments/assets/cfc4c1af-9b71-4b81-a992-8022f0394f01" />
 
 ---
 
 ## 🧠 Feature Engineering
 
-### ✅ Step 6: Extract New Columns
+### ✅ Step 6: Create New Analytical Columns
 
 ```python
 df['hour'] = df['pickup_datetime'].dt.hour
 ...
 ```
 
-✅ Added: hour, day, month, weekday, `is_weekend`, `year`
+* Extracted hour, day, month, weekday
+* Created `is_weekend` boolean feature
 
-**🖼 Screenshot:** `📸 Dataset with new columns`
+**📸 Screenshot:**
+<img width="1782" height="824" alt="image" src="https://github.com/user-attachments/assets/56cf675e-3324-486c-ba46-97fdf9989c4a" />
+
 
 ---
 
-### ✅ Step 7: Calculate Distance (Haversine Formula)
+## 💾 Export to CSV for Power BI
+
+### ✅ Step 7: Save Enhanced Dataset
 
 ```python
-def haversine(...):
-    ...
-df['distance_km'] = df.apply(lambda row: haversine(...), axis=1)
+df.to_csv('uber_cleaned.csv', index=False)
 ```
 
-✅ Calculated real distance for each ride.
+* Downloaded the final cleaned file
+* Ready to import into Power BI for visual analysis
 
-**🖼 Screenshot:** `📸 New column: distance_km`
+**📸 Screenshot:**
+![WhatsApp Image 2025-07-23 at 15 33 05_90511512](https://github.com/user-attachments/assets/3b302be8-e5c0-4422-8d76-ad074c987cb8)
 
 ---
 
@@ -145,7 +166,8 @@ df.to_csv('uber_final.csv', index=False)
 
 ✅ Ready to load into Power BI!
 
-**🖼 Screenshot:** `📸 Save dialog in Colab`
+**🖼 Screenshot:**
+![WhatsApp Image 2025-07-25 at 05 22 52_b2ba36f9](https://github.com/user-attachments/assets/937ce61b-7f4d-49b6-b181-c85ee425b237)
 
 ---
 
