@@ -201,8 +201,7 @@ All visuals include **filters** and **clean formatting**:
 | 6️⃣ | **Peak vs Off-Peak**       | Pie chart of `is_peak` categories                |
 | 7️⃣ | **Pickup Locations (Map)** | Map using lat/long pickup coordinates            |
 
-**🖼 Screenshots:** 
-**First**
+*_👆To be seen in the uploaded PowerBI Assignment file👆_
 
 ---
 
@@ -241,7 +240,6 @@ All visuals include **filters** and **clean formatting**:
 | --------------------------- | ---------------------------------------- |
 | `uber.csv`                  | Raw dataset from Kaggle                  |
 | `uber_cleaned.csv`          | After cleaning (before feature creation) |
-| `uber_final.csv`            | Final file with distance, features       |
 | `uber_analysis_final.ipynb` | Python notebook                          |
 | `/screenshots/`             | Visual proof of each step                |
 | `README.md`                 | This final report                        |
