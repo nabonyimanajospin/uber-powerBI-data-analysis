@@ -182,7 +182,8 @@ df.to_csv('uber_final.csv', index=False)
 
 * Imported `uber_final.csv` into Power BI using **Text/CSV** source
 
-**🖼 Screenshot:** `📸 Power BI data load preview`
+**🖼 Screenshot:📸** 
+<img width="1920" height="1015" alt="image" src="https://github.com/user-attachments/assets/692318b7-4c62-4391-80f3-841be667356a" />
 
 ---
 
@@ -200,7 +201,8 @@ All visuals include **filters** and **clean formatting**:
 | 6️⃣ | **Peak vs Off-Peak**       | Pie chart of `is_peak` categories                |
 | 7️⃣ | **Pickup Locations (Map)** | Map using lat/long pickup coordinates            |
 
-**🖼 Screenshot:** `📸 Each chart with its insight`
+**🖼 Screenshots:** 
+**First**
 
 ---
 
