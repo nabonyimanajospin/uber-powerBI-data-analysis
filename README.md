@@ -251,7 +251,7 @@ All visuals include **filters** and **clean formatting**:
 **Jospin Nabonyimana**
 🎓 Student, Adventist University of Central Africa
 📚 Course: INSY 8413 – Introduction to Big Data Analytics
-📧 Email: [your-email@example.com](mailto:jospinnabonyimana@gmail.com)
+📧 Email: [Contact me](mailto:jospinnabonyimana@gmail.com)
 
 ---
 
