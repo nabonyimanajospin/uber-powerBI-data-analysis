@@ -250,6 +250,22 @@ All visuals include **filters** and **clean formatting**:
 | `README.md`                 | This final report                        |
 
 ---
+Got it! Here's a **shorter, cleaner version** of the **Applications** section — still professional and impactful, but more concise for your README:
+
+---
+
+## 🌍 Applications
+
+This Uber Fares analysis has practical relevance beyond the classroom. It demonstrates how data can support:
+
+* **Fare Optimization**: Identifying peak hours and adjusting prices dynamically
+* **Operational Efficiency**: Understanding when and where rides occur most to allocate drivers
+* **Geospatial Insight**: Mapping pickups to reveal high-demand zones
+* **Trend Forecasting**: Analyzing time patterns for better planning and decision-making
+
+> 🎓 This project bridges academic learning with real-world data analytics — building practical skills in Python, Power BI, and data storytelling.
+
+---
 
 ## 👨‍💻 Author
 
@@ -264,4 +280,9 @@ All visuals include **filters** and **clean formatting**:
 
 ---
 
-> ✅ **Every part of the assignment has been completed and documented as instructed.**
+## 📅 License
+
+© Jospin Nabonyimana, 2025
+
+> This project is for academic purposes under AUCA. All rights reserved.
+
