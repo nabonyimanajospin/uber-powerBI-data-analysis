@@ -253,6 +253,7 @@ All visuals include **filters** and **clean formatting**:
 🎓 Student, Adventist University of Central Africa
 
 📚 Course: INSY 8413 – Introduction to Big Data Analytics
+# Contact
 
 📧 Email: [Contact me](mailto:jospinnabonyimana@gmail.com)
 
