@@ -256,5 +256,3 @@ All visuals include **filters** and **clean formatting**:
 ---
 
 > ✅ **Every part of the assignment has been completed and documented as instructed.**
-> 📌 Screenshots should be added below each 📸 tag in this README.
-> 🧾 Power BI `.pbix` file should also be included in the GitHub repository.
