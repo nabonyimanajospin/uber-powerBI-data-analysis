@@ -245,7 +245,8 @@ All visuals include **filters** and **clean formatting**:
 | --------------------------- | ---------------------------------------- |
 | `uber.csv`                  | Raw dataset from Kaggle                  |
 | `uber_cleaned.csv`          | After cleaning (before feature creation) |
-| `uber_analysis_final.ipynb` | Python notebook                          |
+| Link shared at the top | Python notebook                          |
+|PowerBI Assignment.pbix| For visualizations and data relationship diagram|
 | `/screenshots/`             | Visual proof of each step                |
 | `README.md`                 | This final report                        |
 
