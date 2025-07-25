@@ -255,7 +255,7 @@ All visuals include **filters** and **clean formatting**:
 📚 Course: INSY 8413 – Introduction to Big Data Analytics
 # Contact
 
-📧 Email: [Contact me](mailto:jospinnabonyimana@gmail.com)
+📧 Email: [jospinnaboyimana@gmail.com](mailto:jospinnaboyimana@gmail.com)  
 
 ---
 
