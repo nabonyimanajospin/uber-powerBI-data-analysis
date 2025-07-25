@@ -1,3 +1,8 @@
+Name and ID:
+____________
+**Nabonyimana Jospin**  ![Badge](https://img.shields.io/badge/(26511)-green)
+____________
+
 # 🎯 Uber Fares Dataset Analysis (Big Data Project)
 
 ## 🔗 Kaggle Notebook
@@ -216,7 +221,9 @@ All visuals include **filters** and **clean formatting**:
 
 ✅ Drill-down enabled for month/year
 
-**🖼 Screenshot:** `📸 Filter panels in Power BI`
+**🖼 Screenshot:**
+<img width="1872" height="941" alt="image" src="https://github.com/user-attachments/assets/be75ad12-0d50-4448-b258-c06971146fad" />
+
 
 ---
 
@@ -229,8 +236,6 @@ All visuals include **filters** and **clean formatting**:
 | ⏰ Peak hour pricing     | Evening peaks (5-8PM), higher fares       |
 | 🗓 Weekday vs weekend   | Friday & Saturday = more rides            |
 | 🔄 Distance vs fare     | Some longer rides are cheaper (anomalies) |
-
-**🖼 Screenshot:** `📸 Snapshot of interpretation panel`
 
 ---
 
