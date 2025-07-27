@@ -223,6 +223,7 @@ All visuals include **filters** and **clean formatting**:
 
 **🖼 Screenshot:**
 <img width="1872" height="941" alt="image" src="https://github.com/user-attachments/assets/be75ad12-0d50-4448-b258-c06971146fad" />
+<img width="1899" height="993" alt="image" src="https://github.com/user-attachments/assets/31b44de7-47cc-401e-b234-d34677397e26" />
 
 
 ---
